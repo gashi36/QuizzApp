@@ -230,11 +230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\Desktop\\QuizzApp\\server\\server\\server.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Desktop\\server\\server\\server.csproj",
       "projectName": "server",
-      "projectPath": "C:\\Users\\asus\\Desktop\\QuizzApp\\server\\server\\server.csproj",
+      "projectPath": "C:\\Users\\asus\\Desktop\\server\\server\\server.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\Desktop\\QuizzApp\\server\\server\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Desktop\\server\\server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
