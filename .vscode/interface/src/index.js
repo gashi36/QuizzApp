@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
-import { ContextProvider } from './hooks/useStateContext';
+import { dark } from '@mui/material/styles/createPalette';
 
 const darkTheme = createTheme({
   palette: {
@@ -14,13 +14,11 @@ const darkTheme = createTheme({
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ContextProvider>
-      <ThemeProvider theme={darkTheme}>
-        <CssBaseline />
-        <App />
-      </ThemeProvider>
-    </ContextProvider>
-  </React.StrictMode >
+    <ThemeProvider theme={darkTheme}>
+      <CssBaseline />
+      <App />
+    </ThemeProvider>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
