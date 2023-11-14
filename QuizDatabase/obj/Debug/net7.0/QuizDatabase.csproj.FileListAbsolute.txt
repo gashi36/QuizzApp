@@ -251,3 +251,4 @@ C:\Users\asus\Desktop\QuizzApp\QuizDatabase\obj\Debug\net7.0\refint\QuizDatabase
 C:\Users\asus\Desktop\QuizzApp\QuizDatabase\obj\Debug\net7.0\QuizDatabase.pdb
 C:\Users\asus\Desktop\QuizzApp\QuizDatabase\obj\Debug\net7.0\QuizDatabase.genruntimeconfig.cache
 C:\Users\asus\Desktop\QuizzApp\QuizDatabase\obj\Debug\net7.0\ref\QuizDatabase.dll
+C:\Users\asus\Desktop\QuizzApp\QuizDatabase\bin\Debug\net7.0\BCrypt.Net-Next.dll

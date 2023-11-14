@@ -32,6 +32,20 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.Use(async (context, next) =>
+{
+    var containsIdentifikues = context.Request.Headers.ToList().Any(x => x.Key == "Identifikuesi");
+    if(containsIdentifikues == false)
+    {
+        context.Response.StatusCode = 405;
+        await context.Response.WriteAsync("Mungon Headeri");
+    }
+    else
+    {
+        await next();
+    }
+});
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
